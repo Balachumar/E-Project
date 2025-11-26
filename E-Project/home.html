@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-spa"></i>
+                <h1>Elegance Salon</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-page="services">Services</a></li>
+                    <li><a href="#" class="nav-link" data-page="appointments">Appointments</a></li>
+                    <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn btn-outline" id="loginBtn">Login</button>
+                <button class="btn btn-primary" id="registerBtn">Register</button>
+            </div>
+        </div>
+    </header>
+    <section class="page">
+        <div class="hero">
+            <h2>Welcome to Elegance Salon</h2>
+            <p>Experience luxury and style with our premium beauty and wellness services. Our expert team is dedicated to making you look and feel your best.</p>
+            <button class="btn btn-primary" onclick="loadPage('appointments')">Book an Appointment</button>
+        </div>
+        
+        <div class="services">
+            <div class="service-card">
+                <div class="service-img">
+                    <i class="fas fa-cut"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Hair Styling</h3>
+                    <p>From classic cuts to modern styles, our expert stylists will create the perfect look for you.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <i class="fas fa-hand-sparkles"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Pamper your hands and feet with our luxurious nail care services.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <i class="fas fa-spa"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Facials</h3>
+                    <p>Rejuvenate your skin with our specialized facial treatments tailored to your needs.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Makeup</h3>
+                    <p>Professional makeup services for any occasion, from everyday looks to special events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Elegance Salon</h3>
+                <p>Providing premium beauty and wellness services with a touch of luxury and elegance.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#" class="nav-link" data-page="home">Home</a>
+                <a href="#" class="nav-link" data-page="services">Services</a>
+                <a href="#" class="nav-link" data-page="appointments">Appointments</a>
+                <a href="#" class="nav-link" data-page="contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Beauty Street, Glamour City, GC 12345</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@elegancesalon.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Business Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                <p>Saturday: 9:00 AM - 5:00 PM</p>
+                <p>Sunday: 10:00 AM - 4:00 PM</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2023 Elegance Salon. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
